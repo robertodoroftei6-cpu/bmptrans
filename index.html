@@ -16,7 +16,6 @@
 *{margin:0;padding:0;box-sizing:border-box;}
 html{scroll-behavior:smooth;}
 body{background:var(--bg);color:var(--txt);font-family:'Barlow',sans-serif;font-weight:300;overflow-x:hidden;}
-
 /* ── NAV ── */
 nav{
   position:fixed;top:0;left:0;right:0;z-index:900;height:66px;
@@ -60,7 +59,6 @@ nav{
   transition:background .2s,color .2s;
 }
 .lb.on{background:var(--acc);color:#111;}
-
 /* ── HERO ── */
 #hero{
   position:relative;height:100vh;display:flex;align-items:center;
@@ -98,11 +96,9 @@ nav{
 .hscroll{position:absolute;bottom:26px;left:52px;display:flex;flex-direction:column;gap:7px;opacity:0;animation:fi 1s 1.4s forwards;}
 .hscroll span{font-family:'Barlow Condensed',sans-serif;font-size:.6rem;letter-spacing:.32em;text-transform:uppercase;color:var(--dim);}
 .hline{width:1px;height:32px;background:linear-gradient(to bottom,var(--acc),transparent);animation:lp 2s ease-in-out infinite;}
-
 /* ── SECTION COMMONS ── */
 .seye{font-family:'Barlow Condensed',sans-serif;font-size:.64rem;font-weight:600;letter-spacing:.44em;text-transform:uppercase;color:var(--acc);margin-bottom:12px;}
 .shead{font-family:'Playfair Display',serif;font-weight:700;font-size:clamp(1.8rem,3.6vw,2.9rem);line-height:1.1;margin-bottom:50px;}
-
 /* ── ROUTE ── */
 #route{padding:90px 52px;background:var(--bg2);position:relative;}
 #route::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--acc),transparent);opacity:.26;}
@@ -116,7 +112,6 @@ nav{
 .rconn::after{content:'';position:absolute;top:-3px;left:0;width:7px;height:7px;border-radius:50%;background:var(--acc);box-shadow:0 0 6px var(--acc);animation:dotm 2.8s linear infinite;}
 .rconn:nth-of-type(4)::after{animation-delay:1.4s;}
 .rnote{max-width:580px;margin:0 auto;text-align:center;font-size:.8rem;color:var(--dim);line-height:1.7;font-style:italic;padding-top:20px;border-top:1px solid var(--bdr);}
-
 /* ── COMFORT ── */
 #comfort{padding:90px 52px;background:var(--bg);}
 .cgrid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;margin-top:48px;}
@@ -128,7 +123,6 @@ nav{
 .fic{width:39px;height:39px;background:var(--surf);border:1px solid var(--bdr);display:flex;align-items:center;justify-content:center;font-size:1.05rem;flex-shrink:0;}
 .ft{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.95rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:3px;}
 .fd{font-size:.84rem;color:var(--mut);line-height:1.65;}
-
 /* ── SERVICES ── */
 #services{padding:90px 52px;background:var(--bg2);}
 .svgrid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-top:48px;}
@@ -139,7 +133,6 @@ nav{
 .svn{font-family:'Playfair Display',serif;font-weight:900;font-size:3.2rem;color:rgba(200,168,75,.1);line-height:1;margin-bottom:11px;user-select:none;}
 .svt{font-family:'Barlow Condensed',sans-serif;font-weight:900;font-size:1.45rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;}
 .svd{font-size:.85rem;color:var(--mut);line-height:1.75;max-width:320px;}
-
 /* ── TRUST ── */
 #trust{padding:90px 52px;background:var(--bg);}
 .tin{max-width:660px;margin:0 auto;text-align:center;}
@@ -148,7 +141,6 @@ nav{
 .stats{display:flex;justify-content:center;gap:48px;margin-top:36px;padding-top:32px;border-top:1px solid var(--bdr);flex-wrap:wrap;}
 .stat .n{font-family:'Playfair Display',serif;font-weight:900;font-size:2.3rem;color:var(--acc);display:block;line-height:1;}
 .stat .l{font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--mut);margin-top:4px;display:block;}
-
 /* ── REVIEWS ── */
 #reviews{padding:64px 52px 90px;background:var(--bg);}
 .rvgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:40px;}
@@ -160,13 +152,11 @@ nav{
 .rvsrc{font-size:.67rem;color:var(--mut);margin-top:1px;}
 .rvst{color:var(--acc);font-size:.82rem;letter-spacing:2px;margin-bottom:10px;}
 .rvtx{font-size:.83rem;line-height:1.72;color:var(--mut);}
-
 /* ── CTA ── */
 #cta{padding:90px 52px;background:var(--bg2);text-align:center;position:relative;overflow:hidden;}
 #cta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:460px;height:1px;background:linear-gradient(90deg,transparent,var(--acc),transparent);opacity:.16;}
 .ctain{position:relative;z-index:1;max-width:500px;margin:0 auto;}
 .ctasub{font-size:.92rem;color:var(--mut);line-height:1.8;margin:14px 0 28px;}
-
 /* ── FOOTER ── */
 footer{
   background:#101010;border-top:1px solid var(--bdr);
@@ -177,11 +167,9 @@ footer{
 .footer-logo-text{font-family:'Georgia','Times New Roman',serif;font-weight:700;font-size:.82rem;color:var(--acc);letter-spacing:.02em;}
 .footer-logo-sub{font-family:'Barlow Condensed',sans-serif;font-size:.58rem;letter-spacing:.28em;color:var(--dim);text-transform:uppercase;margin-top:1px;}
 .fcopy{font-size:.68rem;color:var(--dim);}
-
 /* ── REVEAL ── */
 .rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s;}
 .rv.in{opacity:1;transform:translateY(0);}
-
 /* ══ CONTACT POPUP ══ */
 .popup-bg{
   position:fixed;inset:0;z-index:2000;
@@ -246,7 +234,6 @@ footer{
 .isub{font-size:.78rem;color:var(--mut);margin-top:3px;line-height:1.6;}
 .wa-btn{display:inline-flex;align-items:center;gap:9px;background:var(--acc);color:#111;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;border:none;padding:11px 20px;cursor:pointer;text-decoration:none;transition:background .2s,transform .15s;margin-top:12px;}
 .wa-btn:hover{background:var(--acc2);transform:translateY(-2px);}
-
 /* map */
 .cd{fill:#232323;stroke:#303030;stroke-width:.5;}
 .cro{fill:#1d2e19;stroke:#477a3e;stroke-width:.9;}
@@ -258,17 +245,14 @@ footer{
 .cdot2{animation:cp1 2.5s ease-in-out .9s infinite;}
 .cdot3{animation:cp1 2.5s ease-in-out 1.8s infinite;}
 .clbl{font-family:'Barlow Condensed','Arial Narrow',sans-serif;font-size:6.5px;font-weight:700;fill:#c8a84b;letter-spacing:.1em;}
-
 @keyframes up{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fi{to{opacity:1}}
 @keyframes lp{0%,100%{opacity:1}50%{opacity:.3}}
 @keyframes dotm{0%{left:0;opacity:0}8%{opacity:1}92%{opacity:1}100%{left:100%;opacity:0}}
 @keyframes dash{to{stroke-dashoffset:-20}}
 @keyframes cp1{0%,100%{r:3.5;opacity:1}50%{r:5.2;opacity:.5}}
-
 /* ── Logo SVG reused snippet ── */
 /* Defined once as a symbol in defs and reused everywhere */
-
 @media(max-width:768px){
   nav{padding:0 16px;}
   .nlinks{display:none;}
@@ -288,11 +272,10 @@ footer{
   .hero-watermark{width:260px;height:260px;right:-20px;bottom:-20px;}
 }
 </style>
-
 <!-- Reusable SVG logo symbol -->
 <svg style="display:none" xmlns="http://www.w3.org/2000/svg">
   <symbol id="bmp-logo" viewBox="0 0 64 64">
-    <polygon points="32,2 62,32 32,62 2,32" fill="#1a2744"/>
+ points="32,2 62,32 32,62 2,32" fill="#1a2744"/>
     <polygon points="32,2 62,32 32,62 2,32" fill="none" stroke="#c8a84b" stroke-width="2.2"/>
     <text font-family="Georgia,'Times New Roman',serif" font-weight="700"
       font-size="22" letter-spacing="-0.5"
@@ -300,10 +283,8 @@ footer{
       fill="#ffffff" x="32" y="31">BMP</text>
   </symbol>
 </svg>
-
 </head>
 <body>
-
 <!-- NAV -->
 <nav>
   <a class="nlogo" href="#hero">
@@ -329,7 +310,6 @@ footer{
     </div>
   </div>
 </nav>
-
 <!-- HERO -->
 <section id="hero">
   <div class="hmap">
@@ -389,7 +369,6 @@ footer{
   </div>
   <div class="hscroll"><span data-k="h_sc">Derulați</span><div class="hline"></div></div>
 </section>
-
 <!-- ROUTE -->
 <section id="route">
   <div class="seye" data-k="r_e">Ruta noastră</div>
@@ -403,60 +382,55 @@ footer{
   </div>
   <p class="rnote rv" data-k="r_note">* Traseul exact se confirmă cu șoferul. Curse regulate săptămânale — contactați-ne pentru detalii și program.</p>
 </section>
-
 <!-- COMFORT -->
 <section id="comfort">
   <div class="seye" data-k="c_e">Vehicule &amp; Confort</div>
   <h2 class="shead rv" data-k="c_h">O călătorie liniștită</h2>
   <div class="cgrid">
     <div class="vanw rv">
-      <svg viewBox="0 0 740 340" xmlns="http://www.w3.org/2000/svg" fill="none">
-        <ellipse cx="370" cy="315" rx="275" ry="9" fill="rgba(0,0,0,.45)"/>
-        <rect x="55" y="148" width="632" height="146" rx="10" fill="#262626" stroke="#c8a84b" stroke-width="1.2"/>
-        <path d="M105 148 Q160 74 290 68 L540 68 Q660 74 690 148Z" fill="#2e2e2e" stroke="#c8a84b" stroke-width="1.2"/>
-        <path d="M55 148 Q68 108 110 90 L55 148Z" fill="#1e1e1e" stroke="#c8a84b" stroke-width="1"/>
-        <path d="M106 93 Q124 74 165 72 L165 146 Q134 146 106 148Z" fill="#1b2a38" stroke="#c8a84b" stroke-width=".9" opacity=".95"/>
-        <rect x="194" y="84" width="112" height="58" rx="5" fill="#1b2a38" stroke="#c8a84b" stroke-width=".9" opacity=".9"/>
-        <rect x="322" y="80" width="118" height="62" rx="5" fill="#1b2a38" stroke="#c8a84b" stroke-width=".9" opacity=".9"/>
-        <rect x="456" y="84" width="100" height="58" rx="5" fill="#1b2a38" stroke="#c8a84b" stroke-width=".9" opacity=".9"/>
-        <line x1="186" y1="148" x2="186" y2="294" stroke="#c8a84b" stroke-width=".6" opacity=".28"/>
-        <line x1="314" y1="148" x2="314" y2="294" stroke="#c8a84b" stroke-width=".6" opacity=".28"/>
-        <line x1="448" y1="148" x2="448" y2="294" stroke="#c8a84b" stroke-width=".6" opacity=".28"/>
-        <line x1="620" y1="148" x2="620" y2="294" stroke="#c8a84b" stroke-width=".6" opacity=".28"/>
-        <rect x="244" y="216" width="20" height="5" rx="2.5" fill="#c8a84b" opacity=".4"/>
-        <rect x="372" y="216" width="20" height="5" rx="2.5" fill="#c8a84b" opacity=".4"/>
-        <rect x="510" y="216" width="20" height="5" rx="2.5" fill="#c8a84b" opacity=".4"/>
-        <rect x="686" y="168" width="13" height="30" rx="2" fill="#8b1a1a" opacity=".9"/>
-        <rect x="686" y="203" width="13" height="13" rx="2" fill="#c8a84b" opacity=".55"/>
-        <rect x="55" y="170" width="11" height="28" rx="2" fill="#c8a84b" opacity=".85"/>
-        <rect x="55" y="226" width="34" height="20" rx="2" fill="#1a1a1a" stroke="#484848" stroke-width=".7"/>
-        <line x1="62" y1="226" x2="62" y2="246" stroke="#484848" stroke-width=".5"/>
-        <line x1="70" y1="226" x2="70" y2="246" stroke="#484848" stroke-width=".5"/>
-        <line x1="78" y1="226" x2="78" y2="246" stroke="#484848" stroke-width=".5"/>
-        <rect x="52" y="248" width="42" height="9" rx="3" fill="#2e2e2e" stroke="#3e3e3e" stroke-width=".7"/>
-        <rect x="648" y="248" width="42" height="9" rx="3" fill="#2e2e2e" stroke="#3e3e3e" stroke-width=".7"/>
-        <path d="M116 294 Q116 260 160 260 Q204 260 204 294" fill="#1a1a1a" stroke="#c8a84b" stroke-width="1"/>
-        <path d="M544 294 Q544 260 590 260 Q636 260 636 294" fill="#1a1a1a" stroke="#c8a84b" stroke-width="1"/>
-        <circle cx="160" cy="296" r="35" fill="#141414" stroke="#c8a84b" stroke-width="1.4"/>
-        <circle cx="160" cy="296" r="19" fill="#1e1e1e" stroke="#666" stroke-width="1.1"/>
-        <circle cx="160" cy="296" r="5.5" fill="#c8a84b"/>
-        <line x1="160" y1="277" x2="160" y2="315" stroke="#777" stroke-width="1.1"/>
-        <line x1="141" y1="296" x2="179" y2="296" stroke="#777" stroke-width="1.1"/>
-        <line x1="147" y1="283" x2="173" y2="309" stroke="#777" stroke-width=".9"/>
-        <line x1="173" y1="283" x2="147" y2="309" stroke="#777" stroke-width=".9"/>
-        <circle cx="590" cy="296" r="35" fill="#141414" stroke="#c8a84b" stroke-width="1.4"/>
-        <circle cx="590" cy="296" r="19" fill="#1e1e1e" stroke="#666" stroke-width="1.1"/>
-        <circle cx="590" cy="296" r="5.5" fill="#c8a84b"/>
-        <line x1="590" y1="277" x2="590" y2="315" stroke="#777" stroke-width="1.1"/>
-        <line x1="571" y1="296" x2="609" y2="296" stroke="#777" stroke-width="1.1"/>
-        <line x1="577" y1="283" x2="603" y2="309" stroke="#777" stroke-width=".9"/>
-        <line x1="603" y1="283" x2="577" y2="309" stroke="#777" stroke-width=".9"/>
-        <circle cx="78" cy="140" r="9" fill="none" stroke="#c8a84b" stroke-width="1.2"/>
-        <line x1="78" y1="131" x2="78" y2="149" stroke="#c8a84b" stroke-width="1.2"/>
-        <line x1="70" y1="144" x2="86" y2="144" stroke="#c8a84b" stroke-width="1.2"/>
-        <line x1="55" y1="220" x2="687" y2="220" stroke="#c8a84b" stroke-width=".5" opacity=".11"/>
+      <svg viewBox="0 0 680 510" xmlns="http://www.w3.org/2000/svg" width="100%">
+        <path d="M 0 80 Q 170 50, 340 100 T 680 80" fill="none" stroke="#c8a84b" stroke-width="2.5" opacity="0.4" style="stroke-dasharray:50px, 50px"/>
+        <path d="M 0 200 Q 170 160, 340 220 T 680 200" fill="none" stroke="#888" stroke-width="2" opacity="0.3" style="animation-delay: -1s;stroke-dasharray:50px, 50px"/>
+        <path d="M 0 350 Q 170 310, 340 370 T 680 350" fill="none" stroke="#c8a84b" stroke-width="2" opacity="0.35" style="animation-delay: -2s;stroke-dasharray:50px, 50px"/>
+        <path d="M 50 420 L 630 420" fill="none" stroke="#888" stroke-width="1.5" opacity="0.25" style="animation-delay: -0.5s;stroke-dasharray:50px, 50px"/>
+        
+        <!-- FLAG 1 ROMANIA -->
+        <g style="animation-delay: 0s">
+          <line x1="140" y1="280" x2="140" y2="400" stroke="#888" stroke-width="2.5" opacity="0.65"/>
+          <rect x="140" y="290" width="20" height="18" fill="#CE2B37" rx="1"/>
+          <rect x="160" y="290" width="20" height="18" fill="#FCD116" rx="1"/>
+          <rect x="180" y="290" width="20" height="18" fill="#002B7F" rx="1"/>
+          
+        </g>
+        
+        <!-- FLAG 2 AUSTRIA -->
+        <g style="animation-delay: -0.8s">
+          <line x1="340" y1="270" x2="340" y2="410" stroke="#888" stroke-width="2.5" opacity="0.65"/>
+          <rect x="340" y="295" width="65" height="6" fill="#ED2939" rx="1"/>
+          <rect x="340" y="301" width="65" height="6" fill="white" stroke="#ccc" stroke-width="0.5" rx="1"/>
+          <rect x="340" y="307" width="65" height="6" fill="#ED2939" rx="1"/>
+
+        </g>
+        
+        <!-- FLAG 3 GERMANY -->
+        <g style="animation-delay: -0.4s">
+          <line x1="540" y1="285" x2="540" y2="405" stroke="#888" stroke-width="2.5" opacity="0.65"/>
+          <rect x="540" y="288" width="58" height="5" fill="#000000" rx="1"/>
+          <rect x="540" y="293" width="58" height="5" fill="#D00000" rx="1"/>
+          <rect x="540" y="298" width="58" height="5" fill="#FFCE00" rx="1"/>
+
+        </g>
+        
+        <!-- Accent dots -->
+        <circle cx="150" cy="130" r="3" fill="#c8a84b" opacity="0.4"/>
+        <circle cx="380" cy="160" r="2.5" fill="#888" opacity="0.3"/>
+        <circle cx="580" cy="140" r="3" fill="#c8a84b" opacity="0.35"/>
+        
+        <!-- Connecting flow lines -->
+        <path d="M 200 360 Q 270 350, 340 360" fill="none" stroke="#888" stroke-width="1.5" opacity="0.25" style="animation-delay: -0.3s;stroke-dasharray:50px, 50px"/>
+        <path d="M 405 365 Q 470 355, 540 365" fill="none" stroke="#888" stroke-width="1.5" opacity="0.25" style="animation-delay: -0.8s;stroke-dasharray:50px, 50px"/>
       </svg>
-      <div class="vcap">Mercedes Vito · Transport profesional</div>
+      <div class="vcap">România · Austria · Germania · Transport Internațional</div>
     </div>
     <div class="feats rv" style="transition-delay:.13s">
       <div class="feat"><div class="fic">🛋️</div><div><div class="ft" data-k="f1t">Scaune confortabile</div><p class="fd" data-k="f1d">Vehiculele noastre sunt echipate cu scaune capitonate, aer condiționat și spațiu generos. Călătorești relaxat pe tot traseul.</p></div></div>
@@ -466,7 +440,6 @@ footer{
     </div>
   </div>
 </section>
-
 <!-- SERVICES -->
 <section id="services">
   <div class="seye" data-k="sv_e">Ce oferim</div>
@@ -478,7 +451,6 @@ footer{
     <div class="svc rv" style="transition-delay:.3s"><div class="svn">04</div><h3 class="svt" data-k="s4t">Livrare Urgentă</h3><p class="svd" data-k="s4d">Colete urgente? Soluții expres la cerere, cu prioritizare pe traseu și confirmare imediată din partea echipei noastre.</p></div>
   </div>
 </section>
-
 <!-- TRUST -->
 <section id="trust">
   <div class="tin rv">
@@ -493,7 +465,6 @@ footer{
     </div>
   </div>
 </section>
-
 <!-- REVIEWS -->
 <section id="reviews">
   <div class="seye" style="text-align:center" data-k="rv_e">Recenzii</div>
@@ -507,7 +478,6 @@ footer{
     <div class="rvc rv" style="transition-delay:.28s"><div class="rvg">Google</div><div class="rvtop"><div class="rvav">👤</div><div><div class="rvnm">I. Bogdan</div><div class="rvsrc" data-k="rvro">Recenzie Google · România</div></div></div><div class="rvst">★★★★★</div><p class="rvtx" data-k="rv6">Prețuri corecte, oameni serioși. Am folosit serviciul de 4 ori, niciodată o problemă. Singurul transportator în care am încredere totală.</p></div>
   </div>
 </section>
-
 <!-- CTA -->
 <section id="cta">
   <div class="ctain rv">
@@ -517,7 +487,6 @@ footer{
     <button class="btng" onclick="openPopup()" data-k="ct_b">Vedeți contactele →</button>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">
@@ -531,7 +500,6 @@ footer{
   </div>
   <div class="fcopy" data-k="ft">© 2025 · România – Austria – Germania</div>
 </footer>
-
 <!-- ══ CONTACT POPUP ══ -->
 <div class="popup-bg" id="popup-bg" onclick="bgClose(event)">
   <div class="popup" id="popup">
@@ -569,7 +537,6 @@ footer{
     <span class="copy-toast">Copiat!</span>
   </button>
 </div>
-
 <div class="dcard">
   <div class="dname">—</div>
   <div class="drole">Toate numerele sunt disponibile. Puteți apela oricare.</div>
@@ -580,7 +547,6 @@ footer{
     <span class="copy-toast">Copiat!</span>
   </button>
 </div>
-
 <div class="dcard">
   <div class="dname">—</div>
   <div class="drole">Toate numerele sunt disponibile. Puteți apela oricare.</div>
@@ -638,14 +604,12 @@ footer{
     </div>
   </div>
 </div>
-
 <script>
 /* POPUP */
 function openPopup(){document.getElementById('popup-bg').classList.add('open');document.body.style.overflow='hidden';}
 function closePopup(){document.getElementById('popup-bg').classList.remove('open');document.body.style.overflow='';}
 function bgClose(e){if(e.target===document.getElementById('popup-bg'))closePopup();}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePopup();});
-
 /* SMART CALL */
 function smartCall(num,btn){
   const mob=/android|iphone|ipad|ipod/.test(navigator.userAgent.toLowerCase());
@@ -657,7 +621,6 @@ function smartCall(num,btn){
     function fb(){const i=document.createElement('input');i.value=num;document.body.appendChild(i);i.select();document.execCommand('copy');document.body.removeChild(i);}
   }
 }
-
 /* I18N */
 const T={ro:{
 n_r:"Rută",n_c:"Confort",n_s:"Servicii",n_t:"Despre noi",n_k:"Contact 24/7",
@@ -673,7 +636,7 @@ f2t:"Șoferi experimentați",f2d:"Ani de experiență pe ruta internațională, 
 f3t:"Bagaje & Colete",f3d:"Portbagaj generos pentru valize și colete. Fiecare obiect asigurat și tratat cu grijă pe toată durata transportului.",
 f4t:"Punctualitate garantată",f4d:"Plecări la ore fixe, trasee optimizate. Știi exact când pleci — și când ajungi.",
 sv_e:"Ce oferim",sv_h:"Servicii",
-s1t:"Transport Colete",s1d:"Trimitem colete în siguranță pe ruta Iași–Germania. Ridicare de la adresă, livrare confirmată la destinație.",
+s1t:"Transport Colete",s1d:"Trimitem colete în siguranță pe ruta Iași–germania. Ridicare de la adresă, livrare confirmată la destinație.",
 s2t:"Transport Persoane",s2d:"Curse regulate cu locuri rezervate. Confort maxim, prețuri corecte, șoferi profesioniști pe întreg traseul.",
 s3t:"Curse Regulate",s3d:"Plecări săptămânale cu program fix. Rezervați-vă locul din timp și călătoriți fără griji.",
 s4t:"Livrare Urgentă",s4d:"Colete urgente? Soluții expres la cerere, cu prioritizare pe traseu și confirmare imediată.",
@@ -685,19 +648,19 @@ rvro:"Recenzie Google · România",rvde:"Recenzie Google · Germania",
 rv1:"Am trimis un colet urgent la München și a ajuns în timp record. Comunicare excelentă. Recomand cu toată încrederea!",
 rv2:"Călătoresc cu ei de 2 ani pe ruta Iași–Stuttgart. Niciodată o întârziere. Șoferii sunt super amabili.",
 rv3:"Am trimis documente și un pachet fragil. Totul a ajuns intact. Prețul corect, comunicarea excelentă.",
-rv4:"Ich nutze diesen Service seit Jahren. Zuverlässig, pünktlich, sehr freundlich. Für Rumänen in Deutschland die beste Option.",
+rv4:"Ich nutze diesen Service seit Jahren. Zuverlässig, pünktlich, sehr freundlich. Für Rumänen die beste Option.",
 rv5:"Am luat-o pe mama acasă de Crăciun. Totul perfect — mașina curată, confortabilă, șofer de încredere.",
 rv6:"Prețuri corecte, oameni serioși. Am folosit serviciul de 4 ori, niciodată o problemă.",
 ct_e:"Suntem la un telefon distanță",ct_h:"Contactați-ne 24/7",
 ct_s:"Întrebări despre o cursă, un colet sau un loc disponibil? Echipa noastră răspunde oricând — zi și noapte.",
 ct_b:"Vedeți contactele →",
-ft:"© 2025 · România – Austria – Germania",ft_sub:"Rachiteni, Iași · România",
+ft:"© 2025 · România – Austria – germania",ft_sub:"Rachiteni, Iași · România",
 p_t:"Disponibili 24/7",
 p_s:"Aveți o întrebare la 3 dimineața? Sunați. Vreți să rezervați un loc duminică seara? Sunați. Suntem mereu la telefon.",
-p_b:"Disponibili acum · România & Germania",
-d_t:"Contacte directe",dr1:"Șofer · Curse regulate",d2n:"Contact Germania",dr2:"Coordonator · Livrări DE",
+p_b:"Disponibili acum · România & germania",
+d_t:"Contacte directe",dr1:"Șofer · Curse regulate",d2n:"Contact germania",dr2:"Coordonator · Livrări DE",
 sch_t:"Program curse",sd1:"Luni",sd2:"Miercuri",sd3:"Vineri",sd4:"Duminică",
-sro_de:"România → Germania",sde_ro:"Germania → România",
+sro_de:"România → germania",sde_ro:"germania → România",
 sch_n:"* Orele exacte se confirmă telefonic. Locuri limitate.",
 i_t:"Informații companie",i1l:"Companie",i1s:"Transport internațional de persoane și colete",
 i2l:"Sediu",i3s:"Răspundem în maxim 2 ore",
@@ -750,7 +713,6 @@ i4l:"Verfügbarkeit",i4s:"Tag und Nacht, auch an Feiertagen.",
 i5l:"Betriebene Route",i5s:"Genaue Route wird mit dem Fahrer bestätigt.",
 wa_b:"WhatsApp",copied:"Kopiert!",
 }};
-
 function setLang(l){
   const t=T[l];
   document.querySelectorAll('[data-k]').forEach(el=>{const k=el.getAttribute('data-k');if(t[k]!==undefined)el.textContent=t[k];});
@@ -758,10 +720,8 @@ function setLang(l){
   document.querySelector(`.lb[onclick="setLang('${l}')"]`).classList.add('on');
   document.documentElement.lang=l;
 }
-
 const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in');});},{threshold:.11});
 document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
-
 const sp=['rs0','rs1','rs2'];let si=0;
 setInterval(()=>{sp.forEach(s=>document.getElementById(s).classList.remove('lit'));document.getElementById(sp[si]).classList.add('lit');si=(si+1)%sp.length;},1400);
 </script>
